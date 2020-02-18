@@ -4,7 +4,7 @@ This is a small but fun programming challenge. This is part of my Project 52 (in
 
 **Project 52** is a personal initiative to take on random programming challenge for 52 weeks. In order to have a successful execution of Project 52, you may:
 - take on small or big project, but it has to be something new and not just refactoring old projects.
-- use whatever programming languages that you want. However, I highly recommended to use more than one programming languages.
+- use whatever programming languages that you want. However, I highly recommend to use more than one programming languages.
 
 **Some advise:**
 - It is recommended to implement a complete, minimal but useful software application. You will soon realize that you are building both personal experience and portfolio.
