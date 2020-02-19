@@ -37,3 +37,7 @@ Example
 
 
 Hint: You can try to plot out the Rover's path on paper first and verify if the Rover is expectedly to arrive at a certain position on the plateau.
+
+License
+------
+This package is licensed under MIT license. See LICENSE for details.
