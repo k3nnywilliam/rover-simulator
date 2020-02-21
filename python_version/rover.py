@@ -63,8 +63,7 @@ class Rover:
                     cond = False
                 else:
                     print("Invalid instruction.")
-                    instruction = input("Please enter your instruction:")
-                    self.instruction = instruction
+
 
     def setPlateauCoordinates(self, px, py):
         self.px = px
