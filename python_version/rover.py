@@ -2,6 +2,7 @@
 Written by Kenny William Nyallau ©2020
 This is a python implementation of Rover challenge
 '''
+import re
 
 class Rover:
 
@@ -9,12 +10,33 @@ class Rover:
         self.instruction = instruction.upper()
         self.__arr_instruction = []
         self.orientation = orientation.upper()
-        self.x = x
-        self.y = y
+        self.x = int(x)
+        self.y = int(y)
         self.__save_x = x
         self.__save_y = y
-        self.px = px
-        self.py = py
+        self.px = int(px)
+        self.py = int(py)
+
+    
+    def checkValidInstruction(self):
+        
+        cond = True
+        
+        while(cond):
+            valid_instruction = "LRMlrm"
+
+            self.__arr_instruction = [self.__arr_instruction 
+        for self.__arr_instruction in self.instruction]
+
+            for i in range(len(self.__arr_instruction)):
+                val_inst = re.findall(self.__arr_instruction[i], valid_instruction)
+                
+                if(val_inst):
+                    cond = False
+                else:
+                    print("Invalid instruction.")
+                    instruction = input("Please enter your instruction:")
+                    self.instruction = instruction
 
 
     def __parseInstruction(self):
