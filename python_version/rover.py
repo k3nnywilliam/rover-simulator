@@ -9,12 +9,12 @@ class Rover:
         self.instruction = instruction.upper()
         self.__arr_instruction = []
         self.orientation = orientation.upper()
-        self.x = x
-        self.y = y
+        self.x = int(x)
+        self.y = int(y)
         self.__save_x = x
         self.__save_y = y
-        self.px = px
-        self.py = py
+        self.px = int(px)
+        self.py = int(py)
 
 
     def __parseInstruction(self):

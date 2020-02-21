@@ -7,20 +7,15 @@ from rover import Rover
 from plateau import Plateau
 
 def main():
-    orientation = 'n'
-    x = 1
-    y = 2
-    px = 5
-    py = 5
-    instruction = 'lmlmlmlmm'
 
-    #instruction = input("Please enter your instruction:")
+    x, y, orientation = input("Please enter x,y, orientation:").split()
+    px, py = input("Please set a size for the Plateau:").split()
+    instruction = input("Please enter your instruction:")
 
     r = Rover(instruction, orientation, x, y, px, py)
     plt = Plateau(x, y)
     
-    print(f"Initial orientation:{r.orientation}")
-    print(f"Initial x: {r.x},y: {r.y}")
+    print(f"Initial x: {r.x},y: {r.y}, orientation: {r.orientation}")
     r.moveRover()
     print(f"Final x: {r.x},y: {r.y}, orientation: {r.orientation}")
 
