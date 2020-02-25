@@ -2,16 +2,7 @@
 
 This is a small but fun programming challenge. This is part of my Project 52 (inspired by someone's who inspired to do Project 52). 
 
-**Project 52** is a personal initiative to take on random programming challenge for 52 weeks. In order to have a successful execution of Project 52, you may:
-- take on small or big project, but it has to be something new and not just refactoring old projects.
-- use whatever programming languages that you want. However, I highly recommend to use more than one programming languages.
-
-**Some advise:**
-- It is recommended to implement a complete, minimal but useful software application. You will soon realize that you are building both personal experience and portfolio.
-- Just because Project 52 encourages you to write one project per week, it doesn't mean that you have to. For example, if you are able to complete a project in a few days, then you should move on to another project on the same week.
-- Try not to embark on too many trivial small and easy projects. Project 52 is supposed to help you gain more skillsets and learn new tricks.
-- You could also try to incorporate dynamic programming once in a while. This is a great way to improve your understanding in algorithms and data structures.
-
+**Project 52** is a personal initiative to take on random programming challenge for 52 weeks.
 
 Task
 ------
